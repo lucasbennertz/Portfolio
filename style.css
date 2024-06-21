@@ -2,11 +2,24 @@
     border-radius: 50%;
     text-align: left;
     display: flex;
-    
+    width: 10%;
 }
 
 .home {
     text-align: right;
     display: flex;
     justify-content: space-between;
+}
+
+.navegacao {
+    margin: auto;
+    margin-right: 100px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: whitesmoke;
 }
