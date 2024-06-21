@@ -1,0 +1,12 @@
+.logo {
+    border-radius: 50%;
+    text-align: left;
+    display: flex;
+    
+}
+
+.home {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
