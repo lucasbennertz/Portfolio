@@ -20,9 +20,30 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.btn-secondary dropdown-toggle{
- background-color: black;
-}
-hr{
+hr {
     border: 1px solid white;
+}
+
+div.par1 {
+    display: flex;
+}
+
+div.apre {
+    margin-left: 50px;
+    margin-top: 75px;
+    justify-content: left;
+}
+
+h1.apre {
+    color: white;
+}
+
+p.apre {
+    color: white;
+}
+
+img.apre {
+    margin-left: 45px;
+    width: 35%;
+    justify-content: right;
 }
