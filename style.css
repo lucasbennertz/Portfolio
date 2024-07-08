@@ -69,10 +69,11 @@ div.apre2 {
 #oQueEuSei {
     color: white;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #apre2 {
-    justify-content: right;
+    justify-content: flex-end;
     margin-left: 15px;
     border: solid 3px black;
     border-radius: 20%;
