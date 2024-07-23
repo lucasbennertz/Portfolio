@@ -60,14 +60,15 @@
     div.par2 {
         display: flex;
         margin-top: 50px;
+        margin-right: 5px;
     }
 
     img.apre2 {
         margin-left: 20px;
         margin-top: 40px;
-        width: 25%;
+        width: 35%;
         justify-content: right;
-        height: 25%;
+        height: 35%;
     }
 
     div.apre2 {
