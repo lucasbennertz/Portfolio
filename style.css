@@ -121,7 +121,7 @@
         margin-top: 20px;
     }
     .btn{
-        font-size: 13px;
+        font-size: 16px;
     }
     hr {
         border: 1px solid #ECF0F1;
@@ -140,19 +140,19 @@
     h1.apre {
         color: #ECF0F1;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 22px;
+        font-size: 26px;
     }
 
     p.apre {
         color: #ECF0F1 ;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     img.apre {
         margin-left: 5px;
         margin-top: 6px;
-        width: 25%;
+        width: 35%;
         justify-content: right;
         height: 25%;
     }
@@ -194,6 +194,16 @@
 
     #imgApre2 {
         width: 16px;
+    }
+    nav{
+        display: inline-block;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        margin-right: 20p;
+        margin-top: 10px;
     }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
