@@ -1,0 +1,104 @@
+.logo {
+    border-radius: 50%;
+    text-align: right;
+    display: flex;
+    width: 12%;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.link{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    font-size: 12px;
+}
+.home{
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.area-nav{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: #366596;
+}
+.navegacao {
+    margin: auto;
+    margin-right: 40px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+div#par1 {
+    display: flex;
+}
+
+div.apre {
+    margin-left: 30px;
+    margin-top: 25px;
+    justify-content: left;
+}
+
+h1.apre {
+    color: white;
+    font-size: 14px;
+}
+
+p.apre {
+    color: white;
+    font-size: 11px;
+   
+}
+
+img.apre {
+    margin-left: 15px;
+    margin-top: 30px;
+    width: 25%;
+    justify-content: right;
+    height: 25%;
+}
+
+div#par2 {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+img.apre2 {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 25%;
+    justify-content: right;
+    height: 25%;
+}
+
+div.apre2 {
+    justify-content: right;
+    margin-left: 35px;
+}
+
+#oQueEuSei {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#apre2 {
+    margin-left: 5px;
+    border: solid 3px black;
+    border-radius: 20%;
+    padding: 5px;
+    background-color: #09134B;
+    font-size: 11px;
+}
+
+#imgApre2 {
+    width: 11px;
+}

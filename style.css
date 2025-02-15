@@ -4,95 +4,105 @@
         border-radius: 50%;
         text-align: right;
         display: flex;
-        width: 10%;
+        width: 12%;
         margin-left: 25px;
         margin-top: 10px;
         border-radius: 50%;
     }
-
-    .home {
+    .link{
+        text-decoration: none;
+        margin-right: 10px;
+        color: white;
+        font-size: 12px;
+    }
+    .home{
         text-align: right;
         display: flex;
         justify-content: space-between;
+        
     }
-
+    .area-nav{
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        background-color: #366596;
+    }
     .navegacao {
         margin: auto;
         margin-right: 40px;
         justify-content: space-around;
         font-family: Arial, Helvetica, sans-serif;
-        margin-top: 20px;
     }
-
+    
     hr {
         border: 1px solid white;
     }
-
-    div.par1 {
+    
+    div#par1 {
         display: flex;
     }
-
+    
     div.apre {
-        margin-left: 50px;
-        margin-top: 75px;
+        margin-left: 30px;
+        margin-top: 25px;
         justify-content: left;
     }
-
+    
     h1.apre {
         color: white;
-        font-size: 20px;
+        font-size: 14px;
     }
-
+    
     p.apre {
         color: white;
-        font-size: 12px;
+        font-size: 11px;
        
     }
-
+    
     img.apre {
-        margin-left: 20px;
-        margin-top: 60px;
+        margin-left: 15px;
+        margin-top: 30px;
         width: 25%;
         justify-content: right;
         height: 25%;
     }
-
-    div.par2 {
+    
+    div#par2 {
         display: flex;
-        margin-top: 50px;
+        margin-top: 20px;
         margin-right: 5px;
     }
-
+    
     img.apre2 {
-        margin-left: 20px;
-        margin-top: 40px;
-        width: 35%;
+        margin-left: 10px;
+        margin-top: 15px;
+        width: 25%;
         justify-content: right;
-        height: 35%;
+        height: 25%;
     }
-
+    
     div.apre2 {
         justify-content: right;
-        margin-left: 55px;
+        margin-left: 35px;
     }
-
+    
     #oQueEuSei {
         color: white;
         display: flex;
         flex-wrap: wrap;
     }
-
+    
     #apre2 {
-        margin-left: 15px;
+        margin-left: 5px;
         border: solid 3px black;
         border-radius: 20%;
         padding: 5px;
         background-color: #09134B;
-        font-size: 12px;
+        font-size: 11px;
     }
-
+    
     #imgApre2 {
-        width: 12px;
+        width: 11px;
     }
 }
 @media (min-width: 481px) and (max-width: 768px){
@@ -107,10 +117,14 @@
         border-radius: 50%;
     }
 
-    .home {
+    .home{
+        background-color: #366596;
         text-align: right;
         display: flex;
         justify-content: space-between;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
     }
 
     .navegacao {
@@ -127,7 +141,7 @@
         border: 1px solid #ECF0F1;
     }
 
-    div.par1 {
+    div#par1 {
         display: flex;
     }
 
@@ -157,7 +171,7 @@
         height: 25%;
     }
 
-    div.par2 {
+    div#par2 {
         display: flex;
         margin-top: 50px;
         margin-right: 5px;
@@ -211,94 +225,104 @@
         border-radius: 50%;
         text-align: right;
         display: flex;
-        width: 10%;
+        width: 7%;
         margin-left: 25px;
         margin-top: 10px;
         border-radius: 50%;
     }
-
-    .home {
+    .link{
+        text-decoration: none;
+        margin-right: 10px;
+        color: white;
+    }
+    .home{
         text-align: right;
         display: flex;
         justify-content: space-between;
+        
     }
-
+    .area-nav{
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        background-color: #366596;
+    }
     .navegacao {
         margin: auto;
         margin-right: 40px;
         justify-content: space-around;
         font-family: Arial, Helvetica, sans-serif;
-        margin-top: 35px;
     }
+    
     hr {
-        border: 1px solid #ECF0F1;
+        border: 1px solid white;
     }
-
-    div.par1 {
+    
+    div#par1 {
         display: flex;
     }
-
+    
     div.apre {
         margin-left: 50px;
         margin-top: 75px;
         justify-content: left;
     }
-
+    
     h1.apre {
-        color: #ECF0F1;
-        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 24px;
     }
-
+    
     p.apre {
-        color: #ECF0F1 ;
-        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 18px;
+       
     }
-
+    
     img.apre {
-        margin-left: 5px;
-        margin-top: 60px;
+        margin-left: 20px;
+        margin-top: 30px;
         width: 25%;
         justify-content: right;
         height: 25%;
     }
-
-    div.par2 {
+    
+    div#par2 {
         display: flex;
-        margin-top: 50px;
+        margin-top: 30px;
         margin-right: 5px;
     }
-
+    
     img.apre2 {
         margin-left: 20px;
-        margin-top: -15px;
-        width: 35%;
+        margin-top: 15px;
+        width: 25%;
         justify-content: right;
-        height: 35%;
+        height: 25%;
     }
-
+    
     div.apre2 {
         justify-content: right;
-        margin-left: 20px;
+        margin-left: 55px;
     }
-
+    
     #oQueEuSei {
-        color: #ECF0F1 ;
-        margin-left: -10px;
+        color: white;
         display: flex;
         flex-wrap: wrap;
     }
-
+    
     #apre2 {
         margin-left: 15px;
         border: solid 3px black;
         border-radius: 20%;
         padding: 5px;
         background-color: #09134B;
-        font-size: 16px;
+        font-size: 18px;
     }
-
+    
     #imgApre2 {
-        width: 16px;
+        width: 15px;
     }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -312,10 +336,14 @@
         border-radius: 50%;
     }
 
-    .home {
+    .home{
+        background-color: #366596;
         text-align: right;
         display: flex;
         justify-content: space-between;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
     }
 
     .navegacao {
@@ -324,13 +352,14 @@
         justify-content: space-around;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 20px;
+        text-decoration: none;
     }
 
     hr {
         border: 1px solid white;
     }
 
-    div.par1 {
+    div#par1 {
         display: flex;
     }
 
@@ -359,7 +388,7 @@
         height: 25%;
     }
 
-    div.par2 {
+    div#par2 {
         display: flex;
         margin-top: 50px;
         margin-right: 5px;
@@ -408,10 +437,14 @@
         border-radius: 50%;
     }
 
-    .home {
+    .home{
+        background-color: #366596;
         text-align: right;
         display: flex;
         justify-content: space-between;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
     }
 
     .navegacao {
@@ -425,7 +458,7 @@
         border: 1px solid white;
     }
 
-    div.par1 {
+    div#par1 {
         display: flex;
     }
 
@@ -454,7 +487,7 @@
         height: 25%;
     }
 
-    div.par2 {
+    div#par2 {
         display: flex;
         margin-top: 50px;
         margin-right: 5px;
